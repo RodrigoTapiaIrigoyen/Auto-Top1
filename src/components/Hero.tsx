@@ -31,7 +31,7 @@ export default function Hero() {
             <div className="relative mx-auto w-full rounded-lg lg:max-w-md animate-float">
               <img
                 className="w-full rounded-lg shadow-xl ring-1 ring-black ring-opacity-5 hover:scale-105 transition-transform duration-300"
-                src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&q=80&w=1024"
+                src="public/assets/auto-top.jpeg"
                 alt="Mecánico trabajando en un auto"
               />
             </div>
