@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
         <h1 className="text-5xl font-bold">SERVICIO AUTOMOTRIZ</h1>
         <p className="mt-4 text-lg font-medium">
-          Reparación, Mantenimiento y Servicio, desde 1998.
+          
         </p>
         <a
           href="#servicios"
