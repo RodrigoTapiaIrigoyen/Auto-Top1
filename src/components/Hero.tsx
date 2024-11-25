@@ -22,7 +22,7 @@ export default function Hero() {
         </p>
         <a
           href="#servicios"
-          className="mt-6 inline-flex items-center px-8 py-4 bg-orange-500 text-white text-lg font-medium rounded hover:bg-orange-600 transition-all"
+          className="mt-6 inline-flex items-center px-8 py-4 bg-blue-500 text-white text-lg font-medium rounded hover:bg-blue-600 transition-all"
         >
           AGENDE UNA CITA
         </a>
