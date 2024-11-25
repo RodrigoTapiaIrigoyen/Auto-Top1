@@ -51,7 +51,7 @@ export default function Navbar() {
               Contacto
             </a>
             <a
-              href="https://wa.me/52720 469 0624"
+              href="https://wa.me/527204690624"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-blue-600 to-blue-400 hover:from-blue-500 hover:to-blue-300 text-white px-4 py-2 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
