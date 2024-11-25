@@ -27,7 +27,7 @@ export default function Navbar() {
             {/* Usa la imagen directamente desde public */}
             <img src="assets/auto-top.jpeg" alt="Logo AutoTop" className="h-8 w-8" />
             <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-              AutoTop
+              
             </span>
           </div>
 

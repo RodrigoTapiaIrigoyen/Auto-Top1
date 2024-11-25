@@ -1,6 +1,24 @@
 import React from 'react';
 import { Award, Shield, CheckCircle } from 'lucide-react';
 
+const insuranceCompanies = [
+  {
+    name: 'Crabi Seguros',
+    logo: '/assets/crabi.jpeg',
+    description: 'Aseguradora digital con cobertura nacional',
+  },
+  {
+    name: 'Chubb Seguros',
+    logo: '/assets/chubb.jpeg',
+    description: 'Líder mundial en seguros comerciales y personales',
+  },
+  {
+    name: 'La Latino Seguros',
+    logo: '/assets/crabi.jpeg',
+    description: 'Compañía mexicana con más de 50 años de experiencia',
+  },
+];
+
 export default function Certifications() {
   return (
     <section className="py-20 bg-gradient-to-b from-dark-900 to-dark-800">
@@ -15,35 +33,45 @@ export default function Certifications() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-16">
-          {[
-            {
-              icon: Award,
-              title: 'Certificación Cesvi',
-              description: 'Certificados por el Centro de Experimentación y Seguridad Vial México',
-            },
-            {
-              icon: Shield,
-              title: 'Aseguradoras',
-              description: 'Colaboramos con las principales aseguradoras como Crabi y Chubb',
-            },
-            {
-              icon: CheckCircle,
-              title: 'Garantía de Calidad',
-              description: 'Todos nuestros servicios cuentan con garantía por escrito',
-            },
-          ].map((item, index) => (
+          {insuranceCompanies.map((company, index) => (
             <div
               key={index}
-              className="bg-dark-800/50 backdrop-blur-sm p-8 rounded-xl text-center hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 animate-fade-in"
+              className="bg-dark-800/50 backdrop-blur-sm p-8 rounded-xl text-center hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 animate-fade-in group"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
-              <div className="bg-gradient-to-br from-blue-500 to-purple-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 animate-float">
-                <item.icon className="h-8 w-8 text-white" />
+              <div className="h-24 flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src={company.logo}
+                  alt={`Logo de ${company.name}`}
+                  className="max-h-full max-w-full object-contain filter brightness-100 hover:brightness-110 transition-all duration-300"
+                />
               </div>
-              <h3 className="text-xl font-bold text-white mb-2">{item.title}</h3>
-              <p className="text-gray-400">{item.description}</p>
+              <h3 className="text-xl font-bold text-white mb-2">{company.name}</h3>
+              <p className="text-gray-400">{company.description}</p>
             </div>
           ))}
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="bg-dark-800/50 backdrop-blur-sm p-8 rounded-xl hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 animate-fade-in">
+            <div className="flex items-center mb-4">
+              <Award className="h-8 w-8 text-blue-400 mr-3" />
+              <h3 className="text-xl font-bold text-white">Certificación Cesvi</h3>
+            </div>
+            <p className="text-gray-400">
+              Certificados por el Centro de Experimentación y Seguridad Vial México, garantizando los más altos estándares de calidad en nuestros servicios.
+            </p>
+          </div>
+
+          <div className="bg-dark-800/50 backdrop-blur-sm p-8 rounded-xl hover:shadow-xl hover:shadow-blue-500/10 transition-all duration-300 animate-fade-in">
+            <div className="flex items-center mb-4">
+              <CheckCircle className="h-8 w-8 text-blue-400 mr-3" />
+              <h3 className="text-xl font-bold text-white">Garantía de Calidad</h3>
+            </div>
+            <p className="text-gray-400">
+              Todos nuestros servicios cuentan con garantía por escrito, respaldando la calidad y durabilidad de nuestro trabajo.
+            </p>
+          </div>
         </div>
 
         <div className="relative group animate-slide-up">
