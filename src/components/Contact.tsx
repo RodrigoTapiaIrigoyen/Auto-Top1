@@ -36,7 +36,10 @@ export default function Contact() {
             {
               icon: Clock,
               title: 'Horario',
-              content: 'Lun - Sáb: 9:00 - 18:00',
+              content: `Lunes a Viernes 9:00 am a 6:00 pm
+              Sábado 9:00 am a 2:00 pm
+              Recepción en grúa 24 hrs 365 días`,
+              
             },
           ].map((item, index) => (
             <div

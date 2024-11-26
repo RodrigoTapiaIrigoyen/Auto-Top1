@@ -10,7 +10,7 @@ export default function Footer() {
             <div className="flex items-center mb-4">
               <Wrench className="h-8 w-8 text-blue-400 animate-float" />
               <span className="ml-2 text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-                AutoTop
+                Auto Top
               </span>
             </div>
             <p className="text-gray-400">
@@ -76,7 +76,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-6 mt-8 text-center animate-fade-in">
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} AutoTop. Todos los derechos reservados.
+            &copy; {new Date().getFullYear()} Auto Top. Todos los derechos reservados.
           </p>
         </div>
       </div>
