@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          Autotop: Reparación Automotriz de Confianza y Calidad
+          Auto top: Reparación Automotriz de Confianza y Calidad
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
           Desde 2020, somos expertos en la reparación de vehículos de colisión, ofreciendo calidad, precisión y rapidez en cada trabajo. Contamos con el equipo y las herramientas necesarias para garantizar un servicio que supera tus expectativas.
@@ -51,7 +51,7 @@ export default function AboutUs() {
             <div className="absolute -inset-1 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl blur opacity-25 group-hover:opacity-50 transition duration-300"></div>
             <img
               src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&q=80&w=1000"
-              alt="Equipo AutoTop"
+              alt="Equipo Auto Top"
               className="relative w-full h-96 object-cover rounded-xl shadow-lg hover:scale-[1.01] transition-transform duration-300"
             />
           </div>
