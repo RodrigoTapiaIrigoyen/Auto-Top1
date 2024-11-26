@@ -7,7 +7,7 @@ export default function AboutUs() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-12 animate-fade-in">
           <h2 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-          Auto top: Reparación Automotriz de Confianza y Calidad
+          Auto Top: Reparación Automotriz de Confianza y Calidad
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
           Desde 2020, somos expertos en la reparación de vehículos de colisión, ofreciendo calidad, precisión y rapidez en cada trabajo. Contamos con el equipo y las herramientas necesarias para garantizar un servicio que supera tus expectativas.
