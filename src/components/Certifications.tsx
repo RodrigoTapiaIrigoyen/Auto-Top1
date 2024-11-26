@@ -14,7 +14,7 @@ const insuranceCompanies = [
   },
   {
     name: 'La Latino Seguros',
-    logo: '/assets/crabi.jpeg',
+    logo: '/assets/latin.jpeg',
     description: 'Compañía mexicana con más de 50 años de experiencia',
   },
 ];

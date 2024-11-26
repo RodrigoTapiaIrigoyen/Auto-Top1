@@ -53,6 +53,13 @@ const services = [
     icon: SprayCan,
     price: '',
   },
+  {
+    id: 7,
+    name: 'Servicio de grua ',
+    description: 'Servicio , recepcion y entrega de tu auto a domicilio ',
+    icon: Car,
+    price: '',
+  },
 ];
 
 
@@ -100,7 +107,7 @@ export default function Services() {
               Llamar
             </a>
             <a
-              href="https://wa.me/52720 469 0624"
+              href="https://wa.me/527204690624"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-green-600 to-green-400 hover:from-green-500 hover:to-green-300 text-white px-6 py-3 rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-green-500/25 flex items-center animate-scale"
